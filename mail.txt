@@ -1,25 +1,16 @@
-Hi Dhivya,
 
-There have been some modifications to the Measurement Set data being extracted from Production. Last week, Larry had a look at the Production data extract lists and pointed out that the data extract actually contained many PC9s which did not belong in the extract. I have attached the latest CSV extract, along with the Lists of PC9s with/without Measurement Sets.
+‚Ä¢	Sourcing Configuration:‚Äì PC9s must belong to a Sourcing Configuration in the Season and have an Active Colorway-Sourcing Link, otherwise it means that the PC9 was not produced in that Season, and hence would not belong in the CSV.
 
-The latest Data extract has been pulled from Production by taking these additional points into consideration:
+‚Ä¢	Product Development Center: ‚Äì only PC9s with ‚ÄúGlobal‚Äù Product Development Center need to be considered.  
 
-ï	Sourcing Configuration:ñ PC9s must belong to a Sourcing Configuration in the Season and have an Active Colorway-Sourcing Link, otherwise it means that the PC9 was not produced in that Season, and hence would not belong in the CSV.
+‚Ä¢	Product Type:‚Äì only PC9s with Product Type ‚ÄúProduct‚Äù would be offered at retail in any market.
 
-ï	Product Development Center: ñ only PC9s with ìGlobalî Product Development Center need to be considered.  
-
-ï	Product Type:ñ only PC9s with Product Type ìProductî would be offered at retail in any market.
-
-ï	Class (Product Hierarchy):ñ PC9s of the Class ìBodywearî have been excluded.  These are undergarments that are in the Bottoms line sheet but would not be part of this project.
+‚Ä¢	Class (Product Hierarchy):‚Äì PC9s of the Class ‚ÄúBodywear‚Äù have been excluded.  These are undergarments that are in the Bottoms line sheet but would not be part of this project.
 
 Special conditions based on Colorway Name:
 
-ï	Name includes letters AV ñ this indicates a special program (Authorized Vintage) details of which are not managed in Flex   Ex: ì59358-0002  AV WHITEî
-ï	Name includes letters MEX or MX ñ this indicates product developed and distributed exclusively for Mexico, not included in the Global assortment, product spec details not managed n Flex Ex: ì56041-0061 MX MID 62 MEXî
-ï	Name includes the letters SA - indicates product developed and distributed exclusively for South Africa, not included in the Global assortment.  Ex: ì57969-0041 SAPPHIRE SKIES SAî
+‚Ä¢	Name includes letters AV ‚Äì this indicates a special program (Authorized Vintage) details of which are not managed in Flex   Ex: ‚Äú59358-0002  AV WHITE‚Äù
+‚Ä¢	Name includes letters MEX or MX ‚Äì this indicates product developed and distributed exclusively for Mexico, not included in the Global assortment, product spec details not managed n Flex Ex: ‚Äú56041-0061 MX MID 62 MEX‚Äù
+‚Ä¢	Name includes the letters SA - indicates product developed and distributed exclusively for South Africa, not included in the Global assortment.  Ex: ‚Äú57969-0041 SAPPHIRE SKIES SA‚Äù
 
-Please let me know if you have any clarifications about the latest data extract. 
-
-Regards,
-Deepti Walvekar
 
