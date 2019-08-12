@@ -1,0 +1,25 @@
+Hi Dhivya,
+
+There have been some modifications to the Measurement Set data being extracted from Production. Last week, Larry had a look at the Production data extract lists and pointed out that the data extract actually contained many PC9s which did not belong in the extract. I have attached the latest CSV extract, along with the Lists of PC9s with/without Measurement Sets.
+
+The latest Data extract has been pulled from Production by taking these additional points into consideration:
+
+•	Sourcing Configuration:– PC9s must belong to a Sourcing Configuration in the Season and have an Active Colorway-Sourcing Link, otherwise it means that the PC9 was not produced in that Season, and hence would not belong in the CSV.
+
+•	Product Development Center: – only PC9s with “Global” Product Development Center need to be considered.  
+
+•	Product Type:– only PC9s with Product Type “Product” would be offered at retail in any market.
+
+•	Class (Product Hierarchy):– PC9s of the Class “Bodywear” have been excluded.  These are undergarments that are in the Bottoms line sheet but would not be part of this project.
+
+Special conditions based on Colorway Name:
+
+•	Name includes letters AV – this indicates a special program (Authorized Vintage) details of which are not managed in Flex   Ex: “59358-0002  AV WHITE”
+•	Name includes letters MEX or MX – this indicates product developed and distributed exclusively for Mexico, not included in the Global assortment, product spec details not managed n Flex Ex: “56041-0061 MX MID 62 MEX”
+•	Name includes the letters SA - indicates product developed and distributed exclusively for South Africa, not included in the Global assortment.  Ex: “57969-0041 SAPPHIRE SKIES SA”
+
+Please let me know if you have any clarifications about the latest data extract. 
+
+Regards,
+Deepti Walvekar
+
